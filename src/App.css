@@ -6,7 +6,6 @@
 }
 
 h1{
-  text-align: center; 
   margin-bottom: 40px;
   margin-top: 50px;
  
@@ -15,7 +14,19 @@ h1{
 margin: auto;
 }
 
+.container2{
+  margin: auto;
+  }
+
 .tablero{
+  width: 40vw;
+  height: 40vh;
+  flex-wrap: wrap;
+  display: flex; 
+  margin: auto; 
+}
+
+.tablero1{
   width: 40vw;
   height: 40vh;
   flex-wrap: wrap;
@@ -66,9 +77,7 @@ margin: auto;
   background-color: rgb(241, 244, 49);
 }
 
-.container2{
-margin: auto;
-}
+
 
 .reset-btn{
   border: 5px solid coral;
@@ -78,5 +87,34 @@ margin: auto;
   margin: auto;
   margin-bottom: 80px;
   cursor:pointer;
+}
 
+.panel{
+  background-color: bisque;
+  border:1px solid rgb(240, 192, 134); 
+  width: 380px;
+  height: 330px;
+  padding-top: 10px;
+ font-weight: bold;
+}
+
+.one{
+  position: absolute;
+  left: 100px;
+  top: 350px;
+}
+
+.two{
+  position: absolute;
+  left: 120px;
+  top: 350px;
+}
+
+
+.messShip{
+margin-top: 12px;
+}
+.messShipText{
+  color: coral ;
+  margin-top: 12px;
 }
